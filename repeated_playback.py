@@ -81,7 +81,7 @@ if __name__ == '__main__':
         print('waiting for start time...')
     
     random_data = np.random.normal(0,0.01,441)
-    timenow = dt.datetime.strftime(dt.datetime.now(),'%H-%M-%S')
+    timenow = dt.datetime.strftime(dt.datetime.now(),'%Y-%m-%d_%H-%M-%S')
     sf.write(f'succesful_runstart_{timenow}.wav', random_data, 44100)
     
     to_yymmddhhmmss = lambda X: dt.datetime.strftime(X, '%Y-%m-%d %H:%M:%S')
@@ -99,7 +99,7 @@ if __name__ == '__main__':
         while i < len(audio_parts):
             out_stream.write(audio_parts[i])
             i += 1
-    timenow = dt.datetime.strftime(dt.datetime.now(),'%H-%M-%S')
+    timenow = dt.datetime.strftime(dt.datetime.now(),'%Y-%m-%d_%H-%M-%S')
     sf.write(f'succesful_runend_{timenow}.wav', random_data, 44100)
 
 
