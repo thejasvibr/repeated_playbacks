@@ -1,0 +1,4 @@
+start_HHMMSS: "10:31:00"
+stop_HHMMSS: "12:20:00"
+playback_file: "C:\\Users\\theja\\Downloads\\noise_pattern1.wav"
+playback_device: "Speakers (Realtek(R) Audio), MME"
