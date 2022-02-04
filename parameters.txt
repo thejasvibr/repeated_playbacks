@@ -1,4 +1,4 @@
-start_HHMMSS: "10:31:00"
-stop_HHMMSS: "12:20:00"
-playback_file: "C:\\Users\\theja\\Downloads\\noise_pattern1.wav"
-playback_device: "Speakers (Realtek(R) Audio), MME"
+start_HHMMSS: "14:39:00"
+stop_HHMMSS: "14:40:30"
+playback_file: "C:\\Users\\soundrec\\Documents\\repeated_playbacks\\stereo_white_noies.wav"
+playback_device: 8

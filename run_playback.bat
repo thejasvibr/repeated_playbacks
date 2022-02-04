@@ -1,2 +1,2 @@
-cd  C:\Users\theja\Documents\research_repos\repeated_playback\
-C:\Users\theja\anaconda3\envs\nussl\pythonw.exe repeated_playback.py
+cd  C:\Users\soundrec\Documents\repeated_playbacks\
+C:\Users\soundrec\Anaconda3\envs\dailynoise\pythonw.exe repeated_playback.py

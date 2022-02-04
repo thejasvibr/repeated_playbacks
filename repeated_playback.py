@@ -82,7 +82,7 @@ if __name__ == '__main__':
     
     random_data = np.random.normal(0,0.01,441)
     timenow = dt.datetime.strftime(dt.datetime.now(),'%Y-%m-%d_%H-%M-%S')
-    sf.write(f'succesful_runstart_{timenow}.wav', random_data, 44100)
+    sf.write(f'succesful_{timenow}_runstart.wav', random_data, 44100)
     
     to_yymmddhhmmss = lambda X: dt.datetime.strftime(X, '%Y-%m-%d %H:%M:%S')
     now = to_yymmddhhmmss(dt.datetime.now())
@@ -100,7 +100,7 @@ if __name__ == '__main__':
             out_stream.write(audio_parts[i])
             i += 1
     timenow = dt.datetime.strftime(dt.datetime.now(),'%Y-%m-%d_%H-%M-%S')
-    sf.write(f'succesful_runend_{timenow}.wav', random_data, 44100)
+    sf.write(f'succesful_{timenow}_runend.wav', random_data, 44100)
 
 
     
